@@ -33,7 +33,7 @@ def get_default_cache_dir():
     """
     default base dir: '~/.cache/modelscope'
     """
-    default_cache_dir = Path.home().joinpath('.cache', 'modelscope')
+    default_cache_dir = Path('.cache/modelscope')
     return default_cache_dir
 
 
